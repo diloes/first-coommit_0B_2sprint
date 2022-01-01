@@ -1,8 +1,8 @@
 # **Ejercicio 1.** Maqueta la página de login 
-En el primer commit podemos ver la página de login
+En el primer commit podemos ver la página de login.
 
 # **Ejercicio 2.** Haz la página de login responsive
-En el segundo commit hacemos la página responsive
+En el segundo commit hacemos la página responsive.
 
 # Getting Started with Create React App
 
