@@ -1,13 +1,69 @@
-body {
+/* GLOBALES */  
+* {
   margin: 0;
-  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
-    'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue',
-    sans-serif;
-  -webkit-font-smoothing: antialiased;
-  -moz-osx-font-smoothing: grayscale;
+  padding: 0;
+  box-sizing: border-box;
 }
 
-code {
-  font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
-    monospace;
+body {
+  background-image: url('./img/bg-login.jpeg');
+  background-repeat: no-repeat;
+  background-size: cover;
+  font-family: 'Raleway', sans-serif; 
+}
+
+.login {
+  background: #fff;
+  width: 35%;
+  height: 100vh;
+  padding: 100px 50px
+}
+
+/* HEADER */
+.login__title {
+  font-weight: normal;
+  font-size: 24px;
+  color: #121625;
+}
+
+.login__title span {
+  color: #32D4A4;
+}
+
+/* FORM */
+.login__form {
+  display: grid;
+  gap: 0.6rem;
+  font-size: 14px;
+  margin: 30px auto 0 auto;
+}
+
+.login__form input {
+  background-color: #F8F8F9;
+  border-radius: 7px;
+  border: none;
+  padding: 1rem;
+  margin-bottom: 2rem;
+}
+
+.login__checkbox {
+  display: flex;
+  justify-content: space-between;
+}
+
+.login__checkbox p {
+  color: #32D4A4;
+}
+
+.login__checkbox label {
+  margin-left: 0.7rem;
+}
+
+.login__btn {
+  border: none;
+  border-radius: 5px;
+  margin-top: 1rem;
+  padding: 1rem 0;
+  color: #fff;
+  background-color: #32D4A4;
 }
