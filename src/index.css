@@ -67,3 +67,21 @@ body {
   color: #fff;
   background-color: #32D4A4;
 }
+
+/* TABLET */
+@media (max-width: 1017px){
+  .login {
+      width: 55vh;
+  }
+}
+
+/* MOBILE */
+@media (max-width: 570px){
+  main {
+      background-image: none;  
+  }
+
+  .login {
+      width: 100%;
+  }
+}
