@@ -1,3 +1,6 @@
+# **Ejercicio 1.** Maqueta la página de login 
+En este primer commit podemos ver la página de login
+
 # Getting Started with Create React App
 
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
