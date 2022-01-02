@@ -22,7 +22,7 @@ const Login = () => {
                     </div>
                 
                     <button class="login__btn">Iniciar Sesión</button>
-                    <p>Click aquí para ver la tabla</p>
+                    
                 </form>
 
                 <div class="footer">
@@ -30,7 +30,7 @@ const Login = () => {
 					<p>Todos los derechos reservados.</p>
 					<p><a href="#">Política de Privacidad</a></p>
 				</div>
-                
+
             </div>
         </div>
     )
