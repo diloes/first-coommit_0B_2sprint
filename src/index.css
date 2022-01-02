@@ -68,6 +68,13 @@ body {
   background-color: #32D4A4;
 }
 
+/* FOOTER */ 
+.footer {
+  color: #A5A8B3;
+  font-size: 12px;
+  margin-top: 70%;
+}
+
 /* TABLET */
 @media (max-width: 1150px){
   .login {
